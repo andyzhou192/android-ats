@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.util;
+package net.andy.android.ats.util;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;

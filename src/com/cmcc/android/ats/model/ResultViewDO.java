@@ -1,6 +1,6 @@
-package com.cmcc.android.ats.model;
+package net.andy.android.ats.model;
 
-import com.cmcc.android.ats.view.MainView;
+import net.andy.android.ats.view.MainView;
 
 import android.app.Activity;
 import android.widget.ArrayAdapter;

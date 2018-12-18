@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.annotation;
+package net.andy.android.ats.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

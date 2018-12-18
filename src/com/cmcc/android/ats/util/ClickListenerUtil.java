@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.util;
+package net.andy.android.ats.util;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,12 +6,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import com.cmcc.android.ats.model.ResultViewDO;
-import com.cmcc.android.ats.model.TestResultDO;
-import com.cmcc.android.ats.runner.StartTest;
-import com.cmcc.android.ats.tools.StringTools;
-import com.cmcc.android.ats.view.ReflushDisplayView;
-import com.cmcc.android.ats.view.listview.ListViewAdapter;
+import net.andy.android.ats.model.ResultViewDO;
+import net.andy.android.ats.model.TestResultDO;
+import net.andy.android.ats.runner.StartTest;
+import net.andy.android.ats.tools.StringTools;
+import net.andy.android.ats.view.ReflushDisplayView;
+import net.andy.android.ats.view.listview.ListViewAdapter;
 
 import android.content.Context;
 import android.graphics.Color;

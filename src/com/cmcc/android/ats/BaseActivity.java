@@ -1,11 +1,11 @@
-package com.cmcc.android.ats;
+package net.andy.android.ats;
 
-import com.cmcc.android.ats.model.ResultViewDO;
-import com.cmcc.android.ats.model.TestResultDO;
-import com.cmcc.android.ats.runner.StartTest;
-import com.cmcc.android.ats.util.ClickListenerUtil;
-import com.cmcc.android.ats.view.MainView;
-import com.cmcc.android.ats.view.ReflushDisplayView;
+import net.andy.android.ats.model.ResultViewDO;
+import net.andy.android.ats.model.TestResultDO;
+import net.andy.android.ats.runner.StartTest;
+import net.andy.android.ats.util.ClickListenerUtil;
+import net.andy.android.ats.view.MainView;
+import net.andy.android.ats.view.ReflushDisplayView;
 
 import android.app.Activity;
 import android.content.Context;

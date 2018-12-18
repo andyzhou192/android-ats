@@ -1,13 +1,13 @@
-package com.cmcc.android.ats.runner;
+package net.andy.android.ats.runner;
 
 import java.lang.reflect.Method;
 
-import com.cmcc.android.ats.annotation.Parameters;
-import com.cmcc.android.ats.model.ResultViewDO;
-import com.cmcc.android.ats.model.TestResultDO;
-import com.cmcc.android.ats.util.AllTestUtil;
-import com.cmcc.android.ats.util.DialogUtil;
-import com.cmcc.android.ats.view.ReflushDisplayView;
+import net.andy.android.ats.annotation.Parameters;
+import net.andy.android.ats.model.ResultViewDO;
+import net.andy.android.ats.model.TestResultDO;
+import net.andy.android.ats.util.AllTestUtil;
+import net.andy.android.ats.util.DialogUtil;
+import net.andy.android.ats.view.ReflushDisplayView;
 
 import android.test.AndroidTestRunner;
 import android.util.Log;

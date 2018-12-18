@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.view.textview;
+package net.andy.android.ats.view.textview;
 
 import android.widget.TextView;
 import android.annotation.SuppressLint;

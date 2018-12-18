@@ -1,7 +1,7 @@
-package com.cmcc.android.ats.testscript;
+package net.andy.android.ats.testscript;
 
-import com.cmcc.android.ats.annotation.Parameters;
-import com.cmcc.android.ats.annotation.Test;
+import net.andy.android.ats.annotation.Parameters;
+import net.andy.android.ats.annotation.Test;
 
 import android.test.AndroidTestCase;
 

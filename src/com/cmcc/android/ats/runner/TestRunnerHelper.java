@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.runner;
+package net.andy.android.ats.runner;
 
 import java.lang.reflect.Method;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.List;
 import android.content.Context;
 import android.util.Log;
 
-import com.cmcc.android.ats.annotation.TargetSheet;
-import com.cmcc.android.ats.handler.Excel2003Handler;
-import com.cmcc.android.ats.model.ResultViewDO;
-import com.cmcc.android.ats.model.TestResultDO;
-import com.cmcc.android.ats.tools.StringTools;
+import net.andy.android.ats.annotation.TargetSheet;
+import net.andy.android.ats.handler.Excel2003Handler;
+import net.andy.android.ats.model.ResultViewDO;
+import net.andy.android.ats.model.TestResultDO;
+import net.andy.android.ats.tools.StringTools;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.Test;
@@ -59,12 +59,12 @@ public class TestRunnerHelper {
 
 	// 初始化参数
 	public static void initParamFromExcel(Context ctx, Test test) {
-		com.cmcc.android.ats.annotation.Test testAnnotation = test.getClass()
-				.getAnnotation(com.cmcc.android.ats.annotation.Test.class);
+		net.andy.android.ats.annotation.Test testAnnotation = test.getClass()
+				.getAnnotation(net.andy.android.ats.annotation.Test.class);
 		String fileName = testAnnotation.paramFile();
 		if (!StringTools.isEmpty(fileName)) {
 			String testCase = test.toString()
-					.substring(0, test.toString().indexOf("(")).trim();// test_01(com.cmcc.example.TestClass)
+					.substring(0, test.toString().indexOf("(")).trim();// test_01(net.andy.example.TestClass)
 			Method methods[] = test.getClass().getDeclaredMethods();
 			for (Method m : methods) {
 				if (m.getName().equals(testCase)) {

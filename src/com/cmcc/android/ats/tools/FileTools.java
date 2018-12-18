@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.tools;
+package net.andy.android.ats.tools;
 
 import java.io.BufferedReader;
 import java.io.File;

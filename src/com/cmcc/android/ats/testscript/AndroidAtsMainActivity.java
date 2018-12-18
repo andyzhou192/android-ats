@@ -1,7 +1,7 @@
-package com.cmcc.android.ats.testscript;
+package net.andy.android.ats.testscript;
 
-import com.cmcc.android.ats.BaseActivity;
-import com.cmcc.android.ats.R;
+import net.andy.android.ats.BaseActivity;
+import net.andy.android.ats.R;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;

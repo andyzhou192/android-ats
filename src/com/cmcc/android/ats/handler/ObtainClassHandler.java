@@ -1,11 +1,11 @@
-package com.cmcc.android.ats.handler;
+package net.andy.android.ats.handler;
 
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-import com.cmcc.android.ats.annotation.Test;
-import com.cmcc.android.ats.tools.StringTools;
+import net.andy.android.ats.annotation.Test;
+import net.andy.android.ats.tools.StringTools;
 
 import android.content.Context;
 import android.util.Log;
@@ -26,7 +26,7 @@ public class ObtainClassHandler {
 	 * 
 	 * @param ctx
 	 * @param entityPackage
-	 *            ,包名（如：com.cmcc.test）
+	 *            ,包名（如：net.andy.test）
 	 * @return
 	 */
 	public static List<Class<?>> scan(Context ctx, String entityPackage) {

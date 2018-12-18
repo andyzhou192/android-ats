@@ -1,9 +1,9 @@
-package com.cmcc.android.ats.util;
+package net.andy.android.ats.util;
 
 import java.util.List;
 
-import com.cmcc.android.ats.handler.ObtainClassHandler;
-import com.cmcc.android.ats.model.ResultViewDO;
+import net.andy.android.ats.handler.ObtainClassHandler;
+import net.andy.android.ats.model.ResultViewDO;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

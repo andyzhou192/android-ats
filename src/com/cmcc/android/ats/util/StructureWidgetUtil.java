@@ -1,6 +1,6 @@
-package com.cmcc.android.ats.util;
+package net.andy.android.ats.util;
 
-import com.cmcc.android.ats.view.textview.BorderTextView;
+import net.andy.android.ats.view.textview.BorderTextView;
 
 import android.content.Context;
 import android.graphics.Color;

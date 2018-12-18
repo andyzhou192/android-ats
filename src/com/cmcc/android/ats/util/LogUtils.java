@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.util;
+package net.andy.android.ats.util;
 
 /*jadclipse*/// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
 // Jad home page: http://www.kpdus.com/jad.html

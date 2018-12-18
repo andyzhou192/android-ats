@@ -1,7 +1,7 @@
-package com.cmcc.android.ats.runner;
+package net.andy.android.ats.runner;
 
-import com.cmcc.android.ats.model.ResultViewDO;
-import com.cmcc.android.ats.model.TestResultDO;
+import net.andy.android.ats.model.ResultViewDO;
+import net.andy.android.ats.model.TestResultDO;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.annotation;
+package net.andy.android.ats.annotation;
 
 /**
  * @author cmcc-zhouyelin

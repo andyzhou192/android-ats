@@ -1,8 +1,8 @@
-package com.cmcc.android.ats.view;
+package net.andy.android.ats.view;
 
-import com.cmcc.android.ats.util.ConstantsUtil;
-import com.cmcc.android.ats.util.StructureWidgetUtil;
-import com.cmcc.android.ats.view.textview.BorderTextView;
+import net.andy.android.ats.util.ConstantsUtil;
+import net.andy.android.ats.util.StructureWidgetUtil;
+import net.andy.android.ats.view.textview.BorderTextView;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

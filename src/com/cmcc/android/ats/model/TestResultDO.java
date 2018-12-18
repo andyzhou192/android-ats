@@ -1,4 +1,4 @@
-package com.cmcc.android.ats.model;
+package net.andy.android.ats.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;

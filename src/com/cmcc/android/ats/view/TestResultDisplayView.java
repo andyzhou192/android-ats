@@ -1,9 +1,9 @@
-package com.cmcc.android.ats.view;
+package net.andy.android.ats.view;
 
 import junit.framework.Test;
 
-import com.cmcc.android.ats.model.ResultViewDO;
-import com.cmcc.android.ats.model.TestResultDO;
+import net.andy.android.ats.model.ResultViewDO;
+import net.andy.android.ats.model.TestResultDO;
 
 public class TestResultDisplayView implements Runnable {
 	@SuppressWarnings("unused")
