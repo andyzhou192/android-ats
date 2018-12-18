@@ -198,7 +198,7 @@ public class LogUtils {
 	private String tag;
 	public static int logLevel = 2;
 	public static boolean writeFileFlag = false;
-	public static String logFile = "chinamobile_cloud_contact.log";
+	public static String logFile = "_cloud_contact.log";
 	public static FileOutputStream fileinput = null;
 
 }
