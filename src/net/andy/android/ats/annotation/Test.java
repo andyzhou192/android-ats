@@ -1,7 +1,7 @@
 package net.andy.android.ats.annotation;
 
 /**
- * @author cmcc-zhouyelin
+ * @author zhouyelin
  * 
  */
 import java.lang.annotation.ElementType;

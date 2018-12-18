@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cmcc.android.ats"
+    package="net.andy.android.ats"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.cmcc.android.ats.testscript.AndroidAtsMainActivity"
+            android:name="net.andy.android.ats.testscript.AndroidAtsMainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,5 +28,5 @@
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="com.cmcc.android.ats" />
+        android:targetPackage="net.andy.android.ats" />
 </manifest>

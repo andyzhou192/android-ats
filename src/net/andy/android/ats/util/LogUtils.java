@@ -207,7 +207,7 @@ public class LogUtils {
  * DECOMPILATION REPORT
  * 
  * Decompiled from:
- * /Users/cmcc/workspace/svnRepo/Sync_SDK_Test/libs/sync_sdk_rcs_sync_20140702
+ * /Users/workspace/svnRepo/Sync_SDK_Test/libs/sync_sdk_rcs_sync_20140702
  * .jar Total time: 15 ms Jad reported messages/errors: Exit status: 0 Caught
  * exceptions:
  */
